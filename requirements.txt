@@ -1,5 +1,11 @@
+ HEAD
 fastapi==0.115.0
 uvicorn==0.30.6
 transformers==4.44.2
 torch==2.4.1
 datasets
+
+altair
+pandas
+streamlit
+ 5ae9231c9a2432637706af115ca9c9871b0f0b34

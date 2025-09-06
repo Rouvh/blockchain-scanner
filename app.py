@@ -3,7 +3,7 @@ from transformers import pipeline
 import json
 
 app = FastAPI()
-model_name = "microsoft/Phi-3-mini-4k-instruct"  # Lightweight model for deployment
+model_name = "microsoft/Phi-3-mini-4k-instruct"
 classifier = pipeline("zero-shot-classification", model=model_name)
 
 def analyze_tx(tx_data, chain):
