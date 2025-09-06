@@ -1,14 +1,15 @@
 ---
-title: Streamlit Template Space
+title: Judging
 emoji: 🚀
 colorFrom: red
 colorTo: red
 sdk: docker
 app_port: 8501
 tags:
-  - streamlit
+- streamlit
 pinned: false
-short_description: Streamlit template space
+short_description: Blockchain anomaly detection with FastAPI
+license: mit
 ---
 
 # Welcome to Streamlit!
