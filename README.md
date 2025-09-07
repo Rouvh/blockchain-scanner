@@ -1,20 +1,12 @@
----
-title: Judging
-emoji: 🚀
-colorFrom: red
-colorTo: red
-sdk: docker
-app_port: 8501
-tags:
-- streamlit
-pinned: false
-short_description: Blockchain anomaly detection with FastAPI
-license: mit
----
+# Blockchain Scanner
+A FastAPI app to detect blockchain anomalies using machine learning.
 
-# Welcome to Streamlit!
+## Description
+This project uses FastAPI to provide an API endpoint (/analyze) for detecting anomalies in blockchain transactions, powered by the Transformers library.
 
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+## Deployment
+Deployed on Render at https://blockchain-scanner-app.onrender.com/analyze.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+## Setup
+- Install dependencies: `pip install -r requirements.txt`
+- Run with: `uvicorn app:app --host 0.0.0.0 --port 7860`
