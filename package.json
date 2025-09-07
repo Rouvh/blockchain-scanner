@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-scanner-backend",
+  "version": "1.0.0",
+  "description": "Backend for blockchain transaction scanner",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "blockchain",
+    "scanner",
+    "ethereum",
+    "tron"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-sdk": "^1.2.0",
+    "alchemy-sdk": "3.6.3",
+    "axios": "^1.11.0",
+    "cors": "2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "5.1.0",
+    "tronweb": "6.0.4",
+    "ws": "8.18.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
